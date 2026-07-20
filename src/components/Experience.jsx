@@ -31,7 +31,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className={classes.experienceSection}>
+    <section className={classes.experienceSection} id="Experience">
       <h1 className={classes.heading}>Experience</h1>
 
       {/* <p className={classes.subHeading}>

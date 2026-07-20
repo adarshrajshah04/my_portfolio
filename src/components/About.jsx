@@ -22,7 +22,7 @@ const About = () => {
     ];
 
     return (
-        <div className={classes.main}>
+        <div className={classes.main} id='About'>
 
             <h1>About Me</h1>
 

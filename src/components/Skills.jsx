@@ -74,7 +74,7 @@ const Skills = () => {
         },
     ];
     return (
-        <div className={classes.skill_main}>
+        <div className={classes.skill_main} id='Skills'>
             <h1 className={classes.skill_h1}>Skills & Tools</h1>
 
             <div className={classes.main}>

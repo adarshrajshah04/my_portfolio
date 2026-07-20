@@ -4,7 +4,7 @@ import classes from "../assets/CSS/Home.module.css";
 
 const Home = () => {
   return (
-    <div className={classes.main}>
+    <div className={classes.main} id="Home">
       <div className={classes.img_border}>
         <img src={adarsh} alt="" className={classes.image} />
       </div>

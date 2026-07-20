@@ -54,7 +54,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className={classes.main}>
+    <div className={classes.main} id='Project'>
       <h1 className={classes.main_h1}>Project</h1>
       <div>
         {projects.map(({title,description,tech,image,github,live})=>{
