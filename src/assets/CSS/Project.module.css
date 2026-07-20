@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 6% 30px 6%;
+    background-color: #0A1020;
+    color: white;
+}
+
+.main_h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.prj_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.right{
+    width: 47%;
+    background-color: #18203A;
+    padding: 0 0 30px 0;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height:20%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.btn_div{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.git_btn{
+   margin-left:3rem;
+   padding:8px 12px ;
+   font-size: 16px;
+   font-weight: 650;
+   border-radius: 50px;
+   border: 2px solid #38BDF8;
+   background-color: transparent;
+   color: #38BDF8;
+}
+
+.git_btn:hover{
+    box-shadow: 0 0 15px #38bff899;
+}
+.link_btn{
+   margin-right:3rem;
+   padding:8px 12px ;
+   font-size: 16px;
+   font-weight: 650;
+   border-radius: 50px;
+   background-color: #38BDF8;
+   border: none;
+   color: white;
+   transition: all 0.2s;
+}
+.link_btn:hover{
+    background-color: transparent;
+    border:2px solid #38BDF8;
+}
+.link_btn:active{
+    transform: scale(95%);
+}
+
+.left{
+    width: 47%;
+}
+
+.title{
+    color: #38BDF8;
+    font-size: 25px;
+    font-weight: 650;
+    
+
+}
+
+.description{
+    font-size: 12px;
+    font-weight: 650;
+    color: gray;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 6px 12px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+}
