@@ -15,6 +15,7 @@
   
   /* padding:20px 100px; */
   padding: 1% 10%;
+  position: fixed;
 }
 
 .nav_logo{
@@ -30,11 +31,16 @@
 }
 
 .nav_list li{
-  font-size: 18px;
+  font-size: 16px;
    color: rgba(200, 195, 195, 0.762);
    cursor: pointer;
+   font-weight: 600;
+   
 }
 
+.nav_list a{
+  text-decoration: none;
+}
 .nav_btn{
   padding: 8px 16px;
   font-size: 16px;
