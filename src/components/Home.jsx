@@ -1,6 +1,7 @@
 import React from "react";
 import adarsh from "../assets/images/adarsh.jpg";
 import classes from "../assets/CSS/Home.module.css";
+import resume from '../assets/resume/Adarsh_resume.pdf'
 
 const Home = () => {
   return (
@@ -28,13 +29,17 @@ const Home = () => {
 
       <div className={classes.btn1_div}>
         <button className={classes.btn1}>Viwe My Work</button>
-        <button className={classes.btn2}>
+        <a href="#contact">
+          <button  className={classes.btn2}>
           Let's Talk
           <i className={`bi bi-arrow-right ${classes.btn2_icon}`}></i>
         </button>
-        <button className={classes.btn3}>
+        </a>
+       <a  href={resume} download='Adarsh_Resume.pdf'>
+         <button className={classes.btn3}>
           <i class="bi bi-download"></i> My Resume
         </button>
+       </a>
       </div>
 
       <div className={classes.user_info_btn}>

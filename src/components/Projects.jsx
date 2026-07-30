@@ -3,36 +3,6 @@ import classes from '../assets/CSS/Project.module.css'
 import filter from '../assets/images/e-commerce.png'
 
 
-// ⭐ MediBot
-// ⭐ Portfolio Website
-// Notes App
-// Car Rental System
-// Business Agency Website
-// Responsive Calculator
-
-//     const projects = [
-//   {
-//     id: 1,
-//     category: "React Project",
-//     year: "2026",
-//     title: "Personal Portfolio",
-//     description:
-//       "A modern responsive developer portfolio built using React.js and CSS Modules to showcase my projects, skills, experience, and education with smooth animations and reusable components.",
-//     tech: [
-//       "React.js",
-//       "JavaScript",
-//       "CSS Modules",
-//       "Bootstrap Icons",
-//       "Vite",
-//     ],
-//     image: "/images/portfolio.png",
-//     github: "https://github.com/adarshrajshah04",
-//     live: "https://your-portfolio-link.com",
-//     featured: true,
-//   },
-// ];
-
-
 const Projects = () => {
   const projects = [
     {

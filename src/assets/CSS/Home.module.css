@@ -38,7 +38,9 @@
     align-items: center;
     justify-content: center;
     
+    animation: float 2s ease-in-out infinite;
 }
+
 
 .image{
     width: 170px;
@@ -110,6 +112,7 @@
     color: white;
     border: none;
     transition: all 0.5s;
+    
 }
 .btn1:hover{
     transform: translateY(-5px);
@@ -190,4 +193,16 @@
 
 }
 
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
 
+    
+    100% {
+        transform: translateY(0);
+    }
+}
