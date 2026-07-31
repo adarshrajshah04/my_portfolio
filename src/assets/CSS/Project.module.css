@@ -100,3 +100,74 @@
     border: 2px solid white;
     border-radius: 50px;
 }
+.hr{
+    display: none;
+}
+
+/* Mobile */
+@media (min-width:0px) and (max-width: 700px){
+    .prj_main{
+        flex-direction: column;
+        gap: 20px;
+        
+
+    }
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+    .btn_div{
+        justify-content: space-between;
+       margin-bottom: 20px;
+    }
+    .git_btn{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .link_btn{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .left{
+        width: 100%;
+        
+    }
+    .description{
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .btn{
+       padding: 4px 10px;
+        margin-top: 10px;
+    }
+    .hr{
+        display: block;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width:700px) and (max-width: 1024px){
+    .right{
+        padding: 0;
+    }
+    .btn_div{
+        margin-bottom: 20px;
+    }
+    .git_btn{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .link_btn{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    
+    .btn{
+        margin-top: 10px;
+    }
+   
+}
