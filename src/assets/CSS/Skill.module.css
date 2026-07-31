@@ -1,8 +1,8 @@
 .skill_main{
     width: 100%;
-    min-height: 100vh;
-    padding: 30px 6%;
-    background-color: #0F1626;
+    min-height: 80vh;
+    padding: 50px 6% 40px 6%;
+    background-color: #0B1220;
 }
 
 .skill_h1{
@@ -170,12 +170,14 @@
     }
     .left{
         width: 100%;
+        
     }
     .left_h1{
         font-size: 25px;
     }
     .right{
         width: 100%;
+        margin-top: 30px;
     }
 }
 
