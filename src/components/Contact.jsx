@@ -1,14 +1,18 @@
 import React from 'react'
 
+
 import Swal from 'sweetalert2'
 import classes from '../assets/CSS/Contact.module.css'
 
 const Contact = () => {
+    const API_KEY= import.meta.env.VITE_API_KEY; // Api key adn url
+    
+    
     const onSubmit = async (event) => {
         event.preventDefault();
 
         const formData = new FormData(event.target);
-        formData.append("access_key", "a62a45fa-b652-4fac-9b34-802682787e22");
+        formData.append("access_key", API_KEY);
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
