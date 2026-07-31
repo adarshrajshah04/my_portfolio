@@ -60,3 +60,41 @@
 .box_p{
     color: rgb(205, 198, 198);
 }
+
+/* //Mobile */
+
+@media (min-width:0px) and (max-width: 700px) {
+    .line_two_div{
+        width: 100%;
+    }
+    .line_one{
+        font-size: 14px;
+    }
+    .line_two{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+       
+    }
+    
+    .boxs{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .box{
+        width: full;
+    }
+    
+}
+
+
+
+@media (min-width:700px) and (max-width: 1024px){
+    .boxs{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .box{
+        width: 45%;
+    }
+}
