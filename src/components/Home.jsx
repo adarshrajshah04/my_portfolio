@@ -28,13 +28,17 @@ const Home = () => {
       </p>
 
       <div className={classes.btn1_div}>
-        <button className={classes.btn1}>Viwe My Work</button>
+        <a href="#Project">
+          <button className={classes.btn1}>View My Work</button>
+        </a>
+
         <a href="#contact">
           <button  className={classes.btn2}>
           Let's Talk
           <i className={`bi bi-arrow-right ${classes.btn2_icon}`}></i>
         </button>
         </a>
+        
        <a  href={resume} download='Adarsh_Resume.pdf'>
          <button className={classes.btn3}>
           <i class="bi bi-download"></i> My Resume
@@ -50,10 +54,12 @@ const Home = () => {
         </div>
 
         <div className={classes.user_m}>
-          <a href="linkedin.com/in/adarshraj-shah-a38518378"
+          <a href="https://www.linkedin.com/in/adarshraj-shah-a38518378"
             target="_blank"
-          className={classes.a_tag} ></a>
-          <i class="fa-brands fa-linkedin"></i>
+          className={classes.a_tag} >
+             <i class="fa-brands fa-linkedin"></i>
+          </a>
+         
         </div>
 
         <div className={classes.user_m}>

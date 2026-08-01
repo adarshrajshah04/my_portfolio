@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 
 
 
@@ -12,6 +12,8 @@ const Nav = () => {
 
   const headingRef  = useRef(null)
 
+useEffect(() => {
+ 
   window.onscroll=function(){
     let abc= document.documentElement
     
@@ -22,9 +24,10 @@ const Nav = () => {
     }else{
       h.classList.remove('change')
     }
-    
-    
   }
+}, [])
+
+  
 
  
 
@@ -45,7 +48,7 @@ const Nav = () => {
       </div>
 
       <div >
-       <a href="#contact"> <button className='nav_btn'>Lets's Talk  <i className="bi bi-arrow-up-right"></i></button></a>
+       <a href="#contact"> <button className='nav_btn'>Let's Talk  <i className="bi bi-arrow-up-right"></i></button></a>
       </div>
 
       

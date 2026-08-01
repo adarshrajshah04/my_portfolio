@@ -49,7 +49,7 @@ const Contact = () => {
 
             <div className={classes.info}>
                 <a className={classes.info_a} href="mailto:adarshrajshah04@gmail.com?subject=Job Opportunity"><i className="bi bi-envelope"></i>      adarshrajshah04@gmail.com</a>
-                <p className={classes.info_p}> <i className="bi bi-geo-alt-fill"></i> Mmumbai</p>
+                <p className={classes.info_p}> <i className="bi bi-geo-alt-fill"></i> Mumbai</p>
             </div>
 
 
