@@ -12,7 +12,6 @@ Welcome to my personal portfolio repository! This portfolio showcases my skills,
 
 ## 📸 Portfolio Preview
 
-> Add a screenshot of your portfolio inside the `public` folder and update the path below.
 
 ![Portfolio Preview]
 ![alt text](image.png)
@@ -148,11 +147,7 @@ If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
----
 
 ## 👨‍💻 Developed By
 
