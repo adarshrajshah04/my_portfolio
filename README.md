@@ -1,16 +1,163 @@
-# React + Vite
+# 👋 Hi, I'm Adarsh Raj Shah
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Software Developer
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, experience, and contact information. It is built with React.js and designed with a modern, responsive, and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+🔗 https://adarshshah.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Portfolio Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Add a screenshot of your portfolio inside the `public` folder and update the path below.
+
+![Portfolio Preview]
+![alt text](image.png)
+
+---
+
+## ✨ Features
+
+- 🎨 Modern & Clean UI
+- 📱 Fully Responsive Design
+- ⚡ Smooth Scrolling Navigation
+- 🎯 Active Navigation Highlight
+- 💼 About Me Section
+- 🛠 Skills Showcase
+- 📂 Project Gallery
+- 💻 Experience Section
+- 📧 Functional Contact Form (Web3Forms)
+- 🔍 SEO Optimized
+- 🌐 Google Search Console Verified
+- 🚀 Deployed on Netlify
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Bootstrap
+- CSS Modules
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Netlify
+- Postman
+
+### APIs & Services
+
+- Web3Forms API
+
+---
+
+## 📁 Project Structure
+
+```
+Portfolio
+│
+├── public/
+│   ├── logo.png
+│   ├── robots.txt
+│   ├── sitemap.xml
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/adarshrajshah04/your-repository-name.git
+```
+
+Go to the project folder
+
+```bash
+cd your-repository-name
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+Create production build
+
+```bash
+npm run build
+```
+
+
+
+## 📬 Contact
+
+**Email**
+
+📧 adarshrajshah04@gmail.com
+
+**LinkedIn**
+
+🔗 https://www.linkedin.com/in/adarshraj-shah-a38518378
+
+**GitHub**
+
+🔗 https://github.com/adarshrajshah04
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+If you like this project, feel free to fork the repository and submit a pull request.
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Developed By
+
+**Adarsh Raj Shah**
+
+Software Developer
+
+⭐ Thank you for visiting my portfolio!
