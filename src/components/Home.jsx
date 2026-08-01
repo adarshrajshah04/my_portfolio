@@ -38,8 +38,9 @@ const Home = () => {
           <i className={`bi bi-arrow-right ${classes.btn2_icon}`}></i>
         </button>
         </a>
-        
-       <a  href={resume} download='Adarsh_Resume.pdf'>
+
+       {/* <a  href={resume} download='Adarsh_Resume.pdf'> */}
+       <a  href={resume}>
          <button className={classes.btn3}>
           <i class="bi bi-download"></i> My Resume
         </button>
