@@ -1,7 +1,7 @@
 import React from "react";
 import adarsh from "../assets/images/adarsh.jpg";
 import classes from "../assets/CSS/Home.module.css";
-import resume from '../assets/resume/Adarsh_resume.pdf'
+// import resume from '../assets/resume/Adarsh_resume.pdf'
 
 const Home = () => {
   return (
@@ -40,7 +40,7 @@ const Home = () => {
         </a>
 
        {/* <a  href={resume} download='Adarsh_Resume.pdf'> */}
-       <a  href={resume}>
+       <a  >
          <button className={classes.btn3}>
           <i class="bi bi-download"></i> My Resume
         </button>
