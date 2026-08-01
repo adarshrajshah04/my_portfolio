@@ -1,7 +1,7 @@
 .main {
     width: 100%;
     min-height: 100vh;
-    padding: 6% 100px 6% 30px;
+    padding:100px 6%   30px 6%;
     background-color: #0A1020;
     color: white;
     display: flex;
@@ -147,4 +147,40 @@
 
 
 
-@media (min-width:0px) and (max-width: 700px){}
+@media (min-width:0px) and (max-width: 700px){
+    .main{
+        padding-top: 30px;
+        min-height: 80vh;
+    }
+    
+    .main_h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+   .info_p, .info_a{
+        font-size: 12px;
+    }
+
+    .form_div{
+        width: 100%;
+    }
+
+    .inp,.inp_sub,.inp_text{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 6px 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width: 1024px){
+    .main{
+        min-height: 60vh;
+        
+    }
+}
+
